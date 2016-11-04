@@ -32,5 +32,3 @@ $blockDevices | % {
     New-EC2Tag -resource $vol -tag $subservice
     New-EC2Tag -resource $vol -tag $name
 }
-
-#aws ec2 describe-instance --region us-east-1 --instance-ids i-895e9f1a
